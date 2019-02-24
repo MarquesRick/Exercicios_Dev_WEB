@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    <p>
+        <form action="testes.txt">
+            <!--busca-->
+            <label for="busca_id">Busca: </label>
+            <input id="busca_id" name="busca" type="search">
+            <br>
+
+            <!--Idade-->
+            <label for="idade_id">Idade: </label>
+            <input id="idade_id" name="idade" type="number" min="5" max="100" step="1">
+            <br>
+
+            <!--Curtiu-->
+            <label for="curtiu_id">Curtiu</label>
+            <input id="curtiu_id" name="curtiu" type="range">
+            <br>
+
+            <!--Email-->
+            <label for="email_id">Email: </label>
+            <input id="email_id" name="email" type="email" placeholder="digite seu e-mail">
+            <br>
+
+            <!--telefone-->
+            <label for="tel_id">Telefone: </label>
+            <input id="tel_id" name="telefone" type="tel" pattern="[0-9]{11}">
+            <br>
+
+            <!--Site-->
+            <label for="site_id">Site: </label>
+            <input id="site_id" name="site" type="url">
+            <br>
+
+            <!--Nascimento-->
+            <label for="nasc_id">Nascimento: </label>
+            <input id="nasc_id" name="nascimento" type="date">
+            <br>
+            <!--festa niver-->
+            <label for="fest_id">Festa de Aniversário: </label>
+            <input id="fest_id" name="festa" type="datetime-local">
+            <br>
+
+            <label for="carn_id">Mês do próximo carnaval: </label>
+            <input id="carn_id" name="carnaval" type="month">
+            <br>
+
+            <label for="rock_id">Semana do Rock in Rio: </label>
+            <input id="rock_id" name="rock" type="week">
+            <br>
+
+            <label for="entrada_id">Horario de Entrada: </label>
+            <input id="entrada_id" name="entrada" type="time">
+            <br>
+
+            <label for="senha_id">Senha: </label>
+            <input id="senha_id" name="entrada" type="password">
+            <br>
+
+            <label for="mensagem_id">Mensagem: </label>
+            <textarea id="mensagem_id" name="mensagem" maxlength="360"></textarea><br>
+            <button id=" botao_id " type =" submit ">
+                     Enviar
+            </button >
+        </form>
+       
+    </p>
+</body>
+
+</html>
