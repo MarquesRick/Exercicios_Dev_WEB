@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/199/xhtml">
+
+<head>
+
+	<!-- remove caracteres estranhos-->
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+	<title>Quentin Tarantino</title>
+
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" media="all" />
+	<script type="text/javascript" src="jquery.js"> </script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("#menu li ul").hide();
+			$("#menu li").hover(
+				function () { $(this).children("ul").show(); },
+				function () { $(this).children("ul").hide(); }
+			);
+
+
+			$("#Pagina1").click(function () {
+
+				//alert("The paragraph was clicked.");
+				$('#Conteudo').load('pagina1.html');
+
+			});
+
+
+		});
+
+
+
+	</script>
+
+</head>
+
+<body>
+
+	<div id="Conteiner">
+		<div id="Cabecalho">
+
+			<img id="portfolio" src="imagem/quentin_tarantino_logo.png" />
+
+			<!-- Listas de filmes-->
+			<ul id="menu">
+				<li>Filmes
+					<ul>
+						<li>
+							<a href='kill_bill.html'>Kill Bill</a>
+						</li>
+						<li>
+							<a href='pulp_fiction.html'>Pulp Fiction</a>
+						</li>
+						<li>
+							<a href='oitoOdiados.html'>Os 8 odiados</a>
+						</li>
+						<li>
+							<a href='django_livre.html'>Django Livre</a>
+						</li>
+						<li>
+							<a href='bastardos_inglorios.html'>Bastardos Inglórios</a>
+						</li>
+					</ul>
+				</li>
+				<li><a href='galeriaF.html'>Imagens</a></li>
+				<li><a href='videos.html'>Videos</a></li>
+				<li> <a href='biografia.html'>Biografia</a> </li>
+				<li><a href='Equipe.html'>Equipe</a> </li>
+			</ul>
+		</div>
+
+		<div id="conteudo2">
+
+			<h1 style="text-align: center">Pulp Fiction</h1>
+			<p id="recuo">
+				Um filme rico em seu elenco, diálogo, trilha sonora, fotografia, enquadramento sob a direção de um dos maiores
+				nomes da atualidade. É complicado falar sobre seu filme preferido, do seu diretor preferido, mas sentimentos à
+				parte vamos falar sobre o segundo filho do Tarantino.
+			</p>
+
+			<p id="recuo">
+				Fiction trouxe à década de 90 uma visão absolutamente diferente do que estavam acostumados, sendo o segundo filme
+				(intitulando Tarantino como diretor). Reservoir Dogs conquistou admiradores até hoje com seu poder de persuadir o
+				espectador, dando o privilégio da imaginação, mas Pulp Fiction superou as expectativas e se tornou um ícone pop do
+				cinema.
+			</p>
+
+			<p id="recuo">
+				O contexto do filme não-linear nos faz mergulhar em histórias diferentes ao mesmo tempo, lembro-me que a primeira
+				vez que assisti ao longa não entendi o propósito do casal que assalta a lanchonete no início, muito menos o de
+				Butch, mas conforme a história vai caminhando e nos conduzindo cada vez mais profundamente, nós vamos conhecendo um
+				pouco mais dos personagens, criando afeição por eles e entendo seu propósito. Sem contar a maneira incrível que
+				tudo se encaixa no final do filme.
+			</p>
+			<p id="recuo">
+				Que Tarantino é um gênio do cinema todos sabemos, talvez você não goste dele nem de Pulp Fiction, mas você
+				provavelmente reconhece o valor desse filme para o mundo cinematográfico. O casting do filme é incrível, contando
+				com Uma Thurman, John Travolta, Samuel L. Jackson, Bruce Willis, Christopher Walker e o próprio Quentin Tarantino.
+				Cada um desenvolveu seu papel de forma icônica, trazendo características que compuseram personagens que permanecem
+				até hoje.
+			</p>
+			<p id="recuo">
+				Desde 94 até os dias de hoje, muitos rumores surgiram sobre a história do filme e alguns objetos que não tinham um
+				explicação completa, como a mala que Vincent Vega (John Travolta) e Jules (Samuel l. Jackson) vão buscar no
+				apartamento dos meninos já no início do filme, quando Vincent abre a maleta uma luz brilha sobre ele. Mas nós nunca
+				vimos o que continha nela. O próprio Tarantino quis deixar isso para o espectador, alguns dizem que são os
+				diamantes em Reservoir Dogs, outros dizem que são drogas, o fato é que nunca saberemos com certeza.
+			</p>
+			<img id="img7" src="imagem\pulp_fiction1.jpg" alt="Pulp Fiction">
+		</div>
+		<div id="Rodape">
+
+			<span id="direito"> Direitos reservados </span>
+		</div>
+
+	</div>
+</body>
+
+</html>

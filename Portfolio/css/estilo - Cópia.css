@@ -1,0 +1,6 @@
+/*  é possivel apicar efeito para mais de um elemento 	exemplo h1, p{color:#006699; */
+  @import /*  quando utilizar import no documento html voce deve colocar aqui tambem o @ import */
+  
+  p{
+     color:#006699;
+   }

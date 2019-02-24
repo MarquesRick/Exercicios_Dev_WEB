@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/199/xhtml">
+
+<head>
+
+	<!-- remove caracteres estranhos-->
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+	<title>Quentin Tarantino</title>
+
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" media="all" />
+	<script type="text/javascript" src="jquery.js"> </script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("#menu li ul").hide();
+			$("#menu li").hover(
+				function () { $(this).children("ul").show(); },
+				function () { $(this).children("ul").hide(); }
+			);
+
+
+			$("#Pagina1").click(function () {
+
+				//alert("The paragraph was clicked.");
+				$('#Conteudo').load('pagina1.html');
+
+			});
+
+
+		});
+
+
+
+	</script>
+
+</head>
+
+<body>
+
+	<div id="Conteiner">
+		<div id="Cabecalho">
+
+			<img id="portfolio" src="imagem/quentin_tarantino_logo.png" />
+
+			<!-- Listas de filmes-->
+			<ul id="menu">
+				<li>Filmes
+					<ul>
+						<li>
+							<a href='kill_bill.html'>Kill Bill</a>
+						</li>
+						<li>
+							<a href='pulp_fiction.html'>Pulp Fiction</a>
+						</li>
+						<li>
+							<a href='oitoOdiados.html'>Os 8 odiados</a>
+						</li>
+						<li>
+							<a href='django_livre.html'>Django Livre</a>
+						</li>
+						<li>
+							<a href='bastardos_inglorios.html'>Bastardos Inglórios</a>
+						</li>
+					</ul>
+				</li>
+				<li><a href='galeriaF.html'>Imagens</a></li>
+				<li><a href='videos.html'>Videos</a></li>
+				<li> <a href='biografia.html'>Biografia</a> </li>
+				<li><a href='Equipe.html'>Equipe</a> </li>
+			</ul>
+		</div>
+		<div id="conteudo2">
+
+			<h2 style="text-align: center">Bastardos Inglórios (Inglourious Basterds)</h2>
+			<p id="recuo">
+				2ª Guerra Mundial. A França está ocupada pelos nazistas. O tenente Aldo Raine (Brad Pitt) é o encarregado de reunir
+				um pelotão de soldados de origem judaica, com o objetivo de realizar uma missão suicida contra os alemães.
+			</p>
+			<p id="recuo">
+				O objetivo é matar o maior número possível de nazistas, da forma mais cruel possível. Paralelamente Shosanna
+				Dreyfuss (Mélanie Laurent) assiste a execução de sua família pelas mãos do coronel Hans Landa (Christoph Waltz), o
+				que faz com que fuja para Paris. Lá ela se disfarça como operadora e dona de um cinema local, enquanto planeja um
+				meio de se vingar.
+			</p>
+			<img id="img7" src="imagem/bastados.jpg" alt="Bastardos Inglorios">
+		</div>
+		<div id="Rodape">
+			<span id="direito"> Direitos reservados </span>
+		</div>
+
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/199/xhtml">
+
+<head>
+
+	<!-- remove caracteres estranhos-->
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+	<title>Quentin Tarantino</title>
+
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" media="all" />
+	<script type="text/javascript" src="jquery.js"> </script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("#menu li ul").hide();
+			$("#menu li").hover(
+				function () { $(this).children("ul").show(); },
+				function () { $(this).children("ul").hide(); }
+			);
+
+
+			$("#Pagina1").click(function () {
+
+				//alert("The paragraph was clicked.");
+				$('#Conteudo').load('pagina1.html');
+
+			});
+
+
+		});
+
+
+
+	</script>
+
+</head>
+
+<body>
+
+	<div id="Conteiner">
+		<div id="Cabecalho">
+
+			<img id="portfolio" src="imagem/quentin_tarantino_logo.png" />
+
+			<!-- Listas de filmes-->
+			<ul id="menu">
+				<li>Filmes
+					<ul>
+						<li>
+							<a href='kill_bill.html'>Kill Bill</a>
+						</li>
+						<li>
+							<a href='pulp_fiction.html'>Pulp Fiction</a>
+						</li>
+						<li>
+							<a href='oitoOdiados.html'>Os 8 odiados</a>
+						</li>
+						<li>
+							<a href='django_livre.html'>Django Livre</a>
+						</li>
+						<li>
+							<a href='bastardos_inglorios.html'>Bastardos Inglórios</a>
+						</li>
+					</ul>
+				</li>
+				<li><a href='galeriaF.html'>Imagens</a></li>
+				<li><a href='videos.html'>Videos</a></li>
+				<li> <a href='biografia.html'>Biografia</a> </li>
+				<li><a href='Equipe.html'>Equipe</a> </li>
+			</ul>
+		</div>
+		<div id="conteudo">
+			<p id="home1">
+				Tarefa de Conclusão
+			</p>
+			<p style="text-align: center; font-size: 30px">
+				<span id="home2">Disciplina:</span> Ferramentas para Desenvolvimento WEB
+			</p>
+			<p style="text-align: center; font-size: 30px">
+				<span id="home2">Professor:</span> Benedito
+			</p>
+			<iframe src="https://giphy.com/embed/26n6WkxrSxe2TnVUk" width="800px" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/animation-fun-26n6WkxrSxe2TnVUk">via GIPHY</a></p>
+		</div>
+		<div id="Rodape">
+			<span id="direito"> Direitos reservados </span>
+		</div>
+
+	</div>
+</body>
+
+</html>

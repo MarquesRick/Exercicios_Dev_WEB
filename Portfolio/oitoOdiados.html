@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/199/xhtml">
+
+<head>
+
+	<!-- remove caracteres estranhos-->
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+	<title>Quentin Tarantino</title>
+
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" media="all" />
+	<script type="text/javascript" src="jquery.js"> </script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("#menu li ul").hide();
+			$("#menu li").hover(
+				function () { $(this).children("ul").show(); },
+				function () { $(this).children("ul").hide(); }
+			);
+
+
+			$("#Pagina1").click(function () {
+
+				//alert("The paragraph was clicked.");
+				$('#Conteudo').load('pagina1.html');
+
+			});
+
+
+		});
+
+
+
+	</script>
+
+</head>
+
+<body>
+
+	<div id="Conteiner">
+		<div id="Cabecalho">
+
+			<img id="portfolio" src="imagem/quentin_tarantino_logo.png" />
+
+			<!-- Listas de filmes-->
+			<ul id="menu">
+				<li>Filmes
+					<ul>
+						<li>
+							<a href='kill_bill.html'>Kill Bill</a>
+						</li>
+						<li>
+							<a href='pulp_fiction.html'>Pulp Fiction</a>
+						</li>
+						<li>
+							<a href='oitoOdiados.html'>Os 8 odiados</a>
+						</li>
+						<li>
+							<a href='django_livre.html'>Django Livre</a>
+						</li>
+						<li>
+							<a href='bastardos_inglorios.html'>Bastardos Inglórios</a>
+						</li>
+					</ul>
+				</li>
+				<li><a href='galeriaF.html'>Imagens</a></li>
+				<li><a href='videos.html'>Videos</a></li>
+				<li> <a href='biografia.html'>Biografia</a> </li>
+				<li><a href='Equipe.html'>Equipe</a> </li>
+			</ul>
+		</div>
+
+		<div id="conteudo2">
+
+			<h1 style="text-align: center">Os 8 odiados (The Hateful Eight)</h1>
+
+			<p id="recuo">
+				Durante uma nevasca, o carrasco John Ruth (Kurt Russell) está transportando uma prisioneira, a famosa Daisy
+				Domergue (Jennifer Jason Leigh), que ele espera trocar por grande quantia de dinheiro.
+			</p>
+			<p id="recuo">
+				No caminho, os viajantes
+				aceitam transportar o caçador de recompensas Marquis Warren (Samuel L. Jackson), que está de olho em outro tesouro,
+				e o xerife Chris Mannix (Walton Goggins), prestes a ser empossado em sua cidade. Como as condições climáticas
+				pioram, eles buscam abrigo no Armazém da Minnie, onde quatro outros desconhecidos estão abrigados. Aos poucos, os
+				oito viajantes no local começam a descobrir os segredos sangrentos uns dos outros, levando a um inevitável
+				confronto entre eles.
+			</p>
+			<p>
+				<img id="img7" src="imagem\8_odiados.jpg" alt="oito odiados">
+			</p>
+		</div>
+
+
+
+		<div id="Rodape">
+			<span id="direito"> Direitos reservados </span>
+</body>
+
+</html>

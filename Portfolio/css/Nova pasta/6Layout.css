@@ -1,0 +1,34 @@
+div{
+border: 1px solid black;
+}
+
+#Geral{
+
+
+width:800px;
+margin: 0 auto;
+
+
+}
+
+#Menu{
+
+height:605px;
+width:200px;
+background-color:green;
+color:white;
+float:left;
+
+}
+
+#Conteudo{
+
+width:596px;
+height:605px;
+float:right;
+
+}
+
+
+
+

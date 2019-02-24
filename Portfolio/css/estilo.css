@@ -1,0 +1,232 @@
+div{
+	border: 1px solid black;
+}
+
+#Cabecalho{
+	height:198px;
+	width:800px;
+	background:black;
+	z-index: 0;
+}
+
+#Conteiner{
+
+	width:800px;
+	margin: 0 auto; /*centralizar layout*/
+	border-width: 1px;
+}
+
+#respiro{
+
+  width:760px;
+  background-color:#F2F2F2;
+  border: 1px solid #F2F2F2;
+  position:relative;
+  left:15px;
+  top:-1px;
+  color:black;
+  z-index: 1;
+}
+
+#conteudo{
+	width:800px;
+	height:615px;
+	background-color:#F2F2F2;
+	overflow:auto;
+
+}
+
+#conteudo2{
+	width:800px;
+	height:615px;
+	background-color:#F2F2F2;
+	overflow:auto;
+	font-size: 18px;
+
+}
+
+#conteudo3{
+	width:800px;
+	height:615px;
+	background-color:white;
+	overflow:auto;
+
+}
+
+#recuo{ 
+	text-indent:4em 
+}
+#wallpaper{
+	overflow:auto;
+}
+
+/* não é necessario essa referencia abaixo pode, utilizar a div de como as outras, este exemplo mostra que a div principal esta dentro da div Conteudo*/
+
+
+#Rodape{
+	clear: both;
+	background:#DDDDDD;
+	width:800px;
+	height:30px;
+}
+
+#menu{
+	position:relative;
+	left: -1px;
+	top:1px;
+	z-index: 0;
+}
+
+a {
+    text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	background-color: silver;
+	color: black;
+}
+
+#direito  {
+
+position:relative;
+left:350px;
+top:8px;
+ 
+} 
+
+#portfolio{
+
+	  width:801px;
+	  height:200px;
+	  position: relative;
+	  left:-1px;
+	  top:-1px;
+
+}
+
+
+#img1
+{
+	float: left;
+	width: 250px;
+	height: 300px
+}
+
+#img2{
+
+	float: right;
+	width: 250px;
+	height: 300px;
+}
+#img3{
+	float: left;
+	width: 250px;
+	height: 300px;
+}
+#img4{
+	float: inherit;
+	width: 250px;
+	height: 300px;
+}
+#img5{
+	float: initial;
+	width: 528px;
+	height: 300px;
+}
+#img6{
+	float: inherit;
+	width: 250px;
+	height: 300px;
+}
+
+#img7{
+
+	width: 100%;
+	
+}
+
+#cliqueVeja
+{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	background-color: lightblue;
+}
+
+/* New */
+
+/* coloca todas as li ou seja lista na horizontal*/
+ul#menu>li {
+	float: left
+}
+
+/* coloca todas as li na horizontal organizada*/
+ul#menu>li>ul {
+	left: -1px;
+	top: 25px;
+}
+
+
+
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+li {
+	border: 2px solid black;
+	width: 150px;
+	text-align: center;
+	padding: 3px;
+	position: relative;
+}
+
+li:hover {
+	background-color: silver;
+	color: black;
+}
+
+/* toda ul que tiver dentro de uma li, ou seja um sub menu de lista */
+li>ul {
+	position: absolute;
+	left: 126px;
+	top: -1px;
+	color: black;
+}
+
+#home1{
+
+	text-align: center;
+	font-family: Stencil Std, fantasy;		
+	font-size: 70px;
+	font-weight: bolder;
+	height: 90px;
+}
+
+#home2{
+	text-align: center;
+	font-family: Stencil Std, fantasy;
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+#h2f{
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+}
+
+#rede{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.a:hover(a){
+	background-color: yellow;
+}

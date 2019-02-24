@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/199/xhtml">
+
+<head>
+
+	<!-- remove caracteres estranhos-->
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+	<title>Quentin Tarantino</title>
+
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" media="all" />
+	<script type="text/javascript" src="jquery.js"> </script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("#menu li ul").hide();
+			$("#menu li").hover(
+				function () { $(this).children("ul").show(); },
+				function () { $(this).children("ul").hide(); }
+			);
+
+
+			$("#Pagina1").click(function () {
+
+				//alert("The paragraph was clicked.");
+				$('#Conteudo').load('pagina1.html');
+
+			});
+
+
+		});
+
+
+
+	</script>
+
+</head>
+
+<body>
+
+	<div id="Conteiner">
+		<div id="Cabecalho">
+
+			<img id="portfolio" src="imagem/quentin_tarantino_logo.png" />
+
+			<!-- Listas de filmes-->
+			<ul id="menu">
+				<li>Filmes
+					<ul>
+						<li>
+							<a href='kill_bill.html'>Kill Bill</a>
+						</li>
+						<li>
+							<a href='pulp_fiction.html'>Pulp Fiction</a>
+						</li>
+						<li>
+							<a href='oitoOdiados.html'>Os 8 odiados</a>
+						</li>
+						<li>
+							<a href='django_livre.html'>Django Livre</a>
+						</li>
+						<li>
+							<a href='bastardos_inglorios.html'>Bastardos Inglórios</a>
+						</li>
+					</ul>
+				</li>
+				<li><a href='galeriaF.html'>Imagens</a></li>
+				<li><a href='videos.html'>Videos</a></li>
+				<li> <a href='biografia.html'>Biografia</a> </li>
+				<li><a href='Equipe.html'>Equipe</a> </li>
+			</ul>
+		</div>
+
+		<div id="conteudo2">
+
+			<h1 style="text-align: center">Kill Bill Vol. 1</h1>
+
+			<p id="recuo">
+				A Noiva (Uma Thurman) é uma perigosa assassina que trabalhava em um grupo, liderado por Bill (David Carradine),
+				composto principalmente por mulheres. Grávida, ela decide escapar dessa vida de violência e decide se casar, mas no
+				dia da cerimônia seus companheiros de trabalho se voltam contra ela, quase a matando.
+			</p>
+			<p id="recuo">
+				Após cinco anos em coma, ela
+				desperta sem um bebê e com um único desejo: vingança. A Noiva decide procurar, e matar, as cinco pessoas que
+				destruiram o seu futuro, começando pelas perigosas assassinas Vernita Green (Vivica A. Fox) e O-Ren Ishii (Lucy
+				Liu).
+			</p>
+			<img id="img7" src="imagem\kill_bill.jpg" alt="Kill Bill">
+
+		</div>
+		<div id="Rodape">
+			<span id="direito"> Direitos reservados </span>
+		</div>
+
+	</div>
+</body>
+
+</html>

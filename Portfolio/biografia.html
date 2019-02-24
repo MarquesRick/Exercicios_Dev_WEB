@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/199/xhtml">
+
+<head>
+
+	<!-- remove caracteres estranhos-->
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+	<title>Quentin Tarantino</title>
+
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" media="all" />
+	<script type="text/javascript" src="jquery.js"> </script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("#menu li ul").hide();
+			$("#menu li").hover(
+				function () { $(this).children("ul").show(); },
+				function () { $(this).children("ul").hide(); }
+			);
+
+
+			$("#Pagina1").click(function () {
+
+				//alert("The paragraph was clicked.");
+				$('#Conteudo').load('pagina1.html');
+
+			});
+
+
+		});
+
+
+
+	</script>
+
+</head>
+
+<body>
+
+	<div id="Conteiner">
+		<div id="Cabecalho">
+
+			<img id="portfolio" src="imagem/quentin_tarantino_logo.png" />
+
+			<!-- Listas de filmes-->
+			<ul id="menu">
+				<li>Filmes
+					<ul>
+						<li>
+							<a href='kill_bill.html'>Kill Bill</a>
+						</li>
+						<li>
+							<a href='pulp_fiction.html'>Pulp Fiction</a>
+						</li>
+						<li>
+							<a href='oitoOdiados.html'>Os 8 odiados</a>
+						</li>
+						<li>
+							<a href='django_livre.html'>Django Livre</a>
+						</li>
+						<li>
+							<a href='bastardos_inglorios.html'>Bastardos Inglórios</a>
+						</li>
+					</ul>
+				</li>
+				<li><a href='galeriaF.html'>Imagens</a></li>
+				<li><a href='videos.html'>Videos</a></li>
+				<li> <a href='biografia.html'>Biografia</a> </li>
+				<li><a href='Equipe.html'>Equipe</a> </li>
+			</ul>
+		</div>
+
+		<div id="conteudo2">
+			<h1 style="text-align: center">Biografia</h1>
+			<p id="recuo">
+				Nascido em 1963, Quentin Tarantino inicou sua carreira fazendo pontas em diversos filmes e também fazendo o Curso
+				de Direção do Sundance Institute. Chegou a atuar em diversas séries da TV americana e escrever roteiros que se
+				tornariam sucessos em Hollywood, como os de Amor à Queima-Roupa (1993), de Tony Scott, e Assassinos Por Natureza
+				(1994), de Oliver Stone;
+			</p>
+			<p id="recuo">
+				- Estreou na direção com uma produção independente, Cães de Aluguel (1992), que foi co-produzida pelo ator Harvey
+				Keitel, figura constante em seus filmes;
+			</p>
+			<p id="recuo">
+				- Logo em seguida, dirigiu seu maior sucesso até o momento, Pulp Fiction - Tempo de Violência (1994), que
+				ressuscitou a carreira de John Travolta, deu novo impulso para Samuel L. Jackson e Uma Thurman e ainda rendeu a
+				Tarantino sua primeira indicação ao Oscar, como melhor diretor;
+			</p>
+			<p id="recuo">
+				- Foi também produtor executivo do filme Parceiros do Crime (1994), do então estreante Roger Avary, seu parceiro no
+				roteiro de "Pulp Fiction", atuou em alguns filmes de destaque, como A Balada do Pistoleiro (1995) e Um Drink no
+				Inferno (1996) e ainda dirigiu um dos episódios da comédia Grand Hotel(1995);
+			</p>
+			<p id="recuo">
+				- Já em 1997, Tarantino volta a dirigir sozinho um longa-metragem, com Jackie Brown, adaptação de um famoso livro
+				do escritor americano Elmore Leonard;
+			</p>
+			<p id="recuo">
+				- Em sua curta carreira como cineasta, os filmes de Quentin Tarantino ficaram marcados por falar do submundo,
+				mesclando sempre doses de humor e violência;
+			</p>
+			<p id="recuo">
+				- É casado com a atriz Mira Sorvino, ganhadora do Oscar de Melhor Atriz Coadjuvante por Poderosa Afrodite (1995);
+			</p>
+			<p id="recuo">
+				- Os rumores de ter trabalhado nos filmes A Hora dos Mortos-Vivos e Rei Lear foi apenas uma forma de Tarantino
+				aumentar seu currículo indevidamente, mas o erro acabou indo para em vários livros especializados de cinema;
+			</p>
+			<p id="recuo">
+				- Já foi gerente de uma videolocadora. Inclusive, o próprio Quentin Tarantino credita grande parte de sua
+				criatividade ao fato de ter tido acesso a diversos filmes em seu trabalho, que lhe serviram de inspiração;
+			</p>
+			<p id="recuo">
+				- Geralmente costuma atuar como ator em seus filmes, através de pequenas pontas;
+			</p>
+			<p id="recuo">
+				- Antes de estrear como diretor em Cães de Aluguel (1992), uma das formas de captar recursos pro filme foi a venda
+				de dois roteiros seus: Amor à Queima-Roupa (1993) e Assassinos por Natureza (1994).
+			</p>
+		</div>
+		<div id="Rodape">
+			<span id="direito"> Direitos reservados </span>
+		</div>
+
+	</div>
+</body>
+
+</html>
