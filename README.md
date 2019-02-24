@@ -1,2 +1,1 @@
-# Exercicios_Dev_WEB
-# Main
+# Exercicios_Dev_WEB for Students of Udemy Course
