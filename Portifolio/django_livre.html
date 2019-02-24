@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/199/xhtml">
+
+<head>
+
+	<!-- remove caracteres estranhos-->
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+	<title>Quentin Tarantino</title>
+
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" media="all" />
+	<script type="text/javascript" src="jquery.js"> </script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("#menu li ul").hide();
+			$("#menu li").hover(
+				function () { $(this).children("ul").show(); },
+				function () { $(this).children("ul").hide(); }
+			);
+
+
+			$("#Pagina1").click(function () {
+
+				//alert("The paragraph was clicked.");
+				$('#Conteudo').load('pagina1.html');
+
+			});
+
+
+		});
+
+
+
+	</script>
+
+</head>
+
+<body>
+
+	<div id="Conteiner">
+		<div id="Cabecalho">
+
+			<img id="portfolio" src="imagem/quentin_tarantino_logo.png" />
+
+			<!-- Listas de filmes-->
+			<ul id="menu">
+				<li>Filmes
+					<ul>
+						<li>
+							<a href='kill_bill.html'>Kill Bill</a>
+						</li>
+						<li>
+							<a href='pulp_fiction.html'>Pulp Fiction</a>
+						</li>
+						<li>
+							<a href='oitoOdiados.html'>Os 8 odiados</a>
+						</li>
+						<li>
+							<a href='django_livre.html'>Django Livre</a>
+						</li>
+						<li>
+							<a href='bastardos_inglorios.html'>Bastardos Inglórios</a>
+						</li>
+					</ul>
+				</li>
+				<li><a href='galeriaF.html'>Imagens</a></li>
+				<li><a href='videos.html'>Videos</a></li>
+				<li> <a href='biografia.html'>Biografia</a> </li>
+				<li><a href='Equipe.html'>Equipe</a> </li>
+			</ul>
+		</div>
+
+		<div id="conteudo2">
+
+			<h2 style="text-align: center">Django Livre</h2>
+
+			<p id="recuo">
+				Django (Jamie Foxx) é um escravo liberto cujo passado brutal com seus antigos proprietários leva-o ao encontro do
+				caçador de recompensas alemão Dr. King Schultz (Christoph Waltz). Schultz está em busca dos irmãos assassinos
+				Brittle, e somente Django pode levá-lo a eles. O pouco ortodoxo Schultz compra Django com a promessa de libertá-lo
+				quando tiver capturado os irmãos Brittle, vivos ou mortos.
+			</p>
+			<p id="recuo">
+				Ao realizar seu plano, Schultz libera Django, embora os dois homens decidam continuar juntos. Desta vez, Schultz
+				busca os criminosos mais perigosos do sul dos Estados Unidos com a ajuda de Django. Dotado de um notável talento de
+				caçador, Django tem como objetivo principal encontrar e resgatar Broomhilda (Kerry Washington), sua esposa, que ele
+				não vê desde que ela foi adquirida por outros proprietários, há muitos anos.
+			</p>
+			<p id="recuo">
+				A busca de Django e Schultz leva-os a Calvin Candie (Leonardo DiCaprio), o dono de "Candyland", uma plantação
+				famosa pelo treinador Ace Woody, que treina os escravos locais para a luta. Ao explorarem o local com identidades
+				falsas, Django e Schultz chamam a atenção de Stephen (Samuel L. Jackson), o escravo de confiança de Candie. Os
+				movimentos dos dois começam a ser traçados, e logo uma perigosa organização fecha o cerco em torno de ambos. Para
+				Django e Schultz conseguirem escapar com Broomhilda, eles terão que escolher entre independência e solidariedade,
+				sacrifício e sobrevivência.
+			</p>
+			<img id="img7" src="imagem/django_livre.jpg" alt="Django Livre">
+		</div>
+
+		<div id="Rodape">
+			<span id="direito"> Direitos reservados </span>
+		</div>
+
+	</div>
+</body>
+
+</html>
